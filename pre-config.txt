@@ -2,4 +2,6 @@ export WEB3_INFURA_PROJECT_ID=fbf4b65019c14dbbb85d5ad0c0e11c77
 export WEB3_PROVIDER=https://mainnet.infura.io/v3/fbf4b65019c14dbbb85d5ad0c0e11c77
 export ETHERSCAN_TOKEN=4BSJY3T378VDMYNE2H6VZ133882K1BJMXR
 
+export GOOGLE_APPLICATION_CREDENTIALS="/root/Project/yearn-exporter/secrets/google.json"
+
 docker-compose --file services/dashboard/docker-compose.yml --project-directory . up --build

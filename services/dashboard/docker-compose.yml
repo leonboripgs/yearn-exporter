@@ -94,7 +94,7 @@ services:
       - 9113:9113
     command:
       - '-nginx.scrape-uri'
-      - 'https://yearn.vision:80/stub_status'
+      - 'https://yearn.vision/stub_status'
     networks:
       - yearn-exporter
     restart: always
